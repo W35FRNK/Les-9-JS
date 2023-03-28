@@ -6,13 +6,13 @@ $(document).ready(function() {
    var inputB = parseInt($('#divWidth').val());
    console.log(inputB);
    var cssDivB = {
-    'width': inputB+'px'  
+    'width': inputB+'px',
+    'overflow': 'hidden'  
     };
     console.log(cssDivB)
   
   //check of waarden nummers zijn, ifelse toevoegen
-    $.isNumeric($("txtBox").val());
-
+    
     if(!$.isNumeric($('#divWidth').val())) {
       alert("Alleen getallen gebruiken!");
       return false;
@@ -30,12 +30,12 @@ $(document).ready(function() {
     var inputH = parseInt($('#divHeigth').val());
     console.log(inputH);
     var cssDivH = {
-     'heigth': inputH+'px'  
+     'max-height': inputH+'px',
+     'overflow': 'hidden'    
      };
      console.log(cssDivH)
    
    //check of waarden nummers zijn, ifelse toevoegen
-     $.isNumeric($("txtBox").val());
  
      if(!$.isNumeric($('#divHeigth').val())) {
        alert("Alleen getallen gebruiken!");
