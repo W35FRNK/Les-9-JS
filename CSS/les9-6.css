@@ -1,0 +1,17 @@
+#div1 {
+  background-color: red;
+  color: black;
+  font-size: .75rem;
+}
+
+#div2 {
+  background-color: lightblue;
+  color: black;
+  font-size: 1.25rem;
+}
+
+#div3 {
+  background-color: purple;
+  color: white;
+  font-size: 2rem;
+}
